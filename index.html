@@ -48,6 +48,8 @@ $(document).ready(function() {
 				minTime: "09:00:00",
 
     			events: [
+
+
     				{
     					title: 'All Day Event',
     					start: '2017-06-01'
@@ -122,6 +124,7 @@ $(document).ready(function() {
     					color: 'orange',textColor: 'black',
     					description: 'Αιθουσα 2'
     				},
+
     				{
     					title: 	'Τμήμα Θ2 - Έκθεση - Χελεξάκη',
     					start: 	'2017-06-15T19:00:00',
@@ -131,6 +134,22 @@ $(document).ready(function() {
  
     				}
     			],
+
+
+// NOTE eventSources DISABLES the normal events
+    eventSources: [
+
+        // your event source
+        {
+            url: 'myjsonfeed.php', // use the `url` property
+            type: 'GET',
+            color: 'yellow',    // an option!
+            textColor: 'black'  // an option!
+        }
+
+        // any other sources...
+
+    ],    			
 
     eventRender: function(event, element) {
         element.qtip({
