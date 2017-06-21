@@ -39,7 +39,7 @@ mysite.com/myjsonfeed.php?start=2013-12-01&end=2014-01-12&_=1386054751381
 
 
 ## myjsonfeed.php :
-<?php
+```php
 
 echo '[
     
@@ -67,5 +67,5 @@ echo '[
     }
 ]';
 
-?>
+```
 
