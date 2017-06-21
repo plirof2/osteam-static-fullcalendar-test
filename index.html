@@ -139,9 +139,25 @@ $(document).ready(function() {
         });
     },
 
-            dayClick: function() {
-       			alert('a day has been clicked!');
+       eventClick: function(calEvent, jsEvent, view) {
+
+        alert('Επιλέξατε το : ' + calEvent.title);
+        //alert('Coordinates: ' + jsEvent.pageX + ',' + jsEvent.pageY);
+        //alert('View: ' + view.name);
+
+        // change the border color just for fun
+        $(this).css('border-color', 'red');
+
+    },
+
+
+
+            dayClick: function(date, jsEvent) {
+       			alert( 'Κενή Ώρα - Παρακαλώ εισάγετε διδασκαλία');
     		}
+
+
+
     })
 
 });
