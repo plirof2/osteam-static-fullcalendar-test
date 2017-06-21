@@ -8,19 +8,19 @@ https://fullcalendar.io/docs/resource_data/resources_json_feed/
 
 
 
-#DEMO 1 : cal.minedu.cu.cc
+## DEMO 1 : cal.minedu.cu.cc
 
 
 
 
-#ΜΟΡΦΗ ΕΞΩΤΕΡΙΚΟΥ ERVTHMATOS :
+## ΜΟΡΦΗ ΕΞΩΤΕΡΙΚΟΥ ERVTHMATOS :
 Here is a URL that FullCalendar might visit:
 
 mysite.com/myjsonfeed.php?start=2013-12-01&end=2014-01-12&_=1386054751381
 
 
 
-#Add an external JSON event file :
+## Add an external JSON event file :
     eventSources: [
 
         // your event source
@@ -38,7 +38,7 @@ mysite.com/myjsonfeed.php?start=2013-12-01&end=2014-01-12&_=1386054751381
 
 
 
-#myjsonfeed.php :
+## myjsonfeed.php :
 <?php
 
 echo '[
