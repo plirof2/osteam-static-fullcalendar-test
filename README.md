@@ -2,13 +2,19 @@
 osteam-static-fullcalendar-test
 
 
+
+## Σχετικές πληροφορίες για JSON FEEDS στο fullcalendar
 https://fullcalendar.io/docs/event_data/events_json_feed/
 
 https://fullcalendar.io/docs/resource_data/resources_json_feed/
 
 
 
-## DEMO 1 : cal.minedu.cu.cc
+## DEMO 1 : 
+http://cal.minedu.cu.cc  (with php script on action)
+
+## Κώδικας:
+https://github.com/plirof2/osteam-static-fullcalendar-test
 
 
 
