@@ -1,5 +1,5 @@
 # osteam-static-fullcalendar-test
-osteam-static-fullcalendar-test
+osteam-static-fullcalendar-test (version 170622 -)
 
 Δοκιμαστικ εφαρμογή με χρήση fullcalendar + φορμα RRULE γι εισαγωγή event/διδασκαλιών
 
@@ -14,7 +14,7 @@ https://fullcalendar.io/docs/resource_data/resources_json_feed/
 ## DEMO 1 : 
 http://cal.minedu.cu.cc  (with php script on action)
 
-## Κώδικας:
+## Κώδικας (τελευταία έκδοση):
 https://github.com/plirof2/osteam-static-fullcalendar-test
 
 
@@ -76,3 +76,14 @@ echo '[
 
 ```
 
+
+## Ανοιγμά νέου παραθύρου με κλικ σε κενή ώρα :
+
+```javascript 
+           dayClick: function(date, jsEvent) {
+       		//alert( 'Κενή Ώρα - Παρακαλώ εισάγετε διδασκαλία' + date.format());
+       	    //open an ADD NEW EVENT FORM for this date
+           window.open("add_new_event.php?start="+date.format());				
+    		} // end of dayClick: function(date, jsEvent) {
+
+```
