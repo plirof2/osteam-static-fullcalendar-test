@@ -1,7 +1,7 @@
 # osteam-static-fullcalendar-test
-osteam-static-fullcalendar-test (version 170622 -)
+osteam-static-fullcalendar-test 
 
-Δοκιμαστικ εφαρμογή με χρήση fullcalendar + φορμα RRULE γι εισαγωγή event/διδασκαλιών
+Δοκιμαστική εφαρμογή με χρήση fullcalendar + φορμα RRULE γι εισαγωγή event/διδασκαλιών
 
 
 ## Σχετικές πληροφορίες για JSON FEEDS στο fullcalendar
