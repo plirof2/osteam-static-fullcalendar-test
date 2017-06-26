@@ -151,7 +151,14 @@ $(document).ready(function() {
             url: 'myjsonfeed.php', // use the `url` property
             type: 'GET',
             color: 'yellow',    // an option!
-            textColor: 'black'  // an option!
+            textColor: 'black',  // an option!
+	        data: function() { // a function that returns an object
+	            return {
+	                professor_id: Math.random(),
+	                lesson_id: Math.random()
+	            };
+	        }            
+
         }
 
         // any other sources...

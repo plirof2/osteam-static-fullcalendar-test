@@ -87,3 +87,26 @@ echo '[
     		} // end of dayClick: function(date, jsEvent) {
 
 ```
+
+## Dynamic feed parameters:
+Ορίζουμε το event sources έτσι:
+    eventSources: [
+
+        // your event source
+        {
+            url: 'myjsonfeed.php', // use the `url` property
+            type: 'GET',
+            color: 'yellow',    // an option!
+            textColor: 'black',  // an option!
+            data: function() { // a function that returns an object
+                return {
+                    professor_id: Math.random(),
+                    lesson_id: Math.random()
+                };
+            } // END of data: function() {            
+
+        }
+
+        // any other sources...
+
+    ], // END of eventSources: [
