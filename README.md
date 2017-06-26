@@ -110,3 +110,8 @@ echo '[
         // any other sources...
 
     ], // END of eventSources: [
+
+
+    αυτό θα ζητήσει το feed από την server έτσι: **http://cal.minedu.cu.cc/myjsonfeed.php?professor_id=0.2&lesson_id=0.4&start=2017-06-12&end=2017-06-19&_=1498454233377**
+
+
