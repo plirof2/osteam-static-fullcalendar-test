@@ -9,106 +9,87 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   	    "events": [
-	       {
-	         id: 1,
-	         title: 'event1',
-	         start: moment().hours(12).minutes(0),
-	       },
-	       {
-	         id: 2,
-	         title: 'event2',
-	         start: moment().add(-1, 'days'),
-	         end: moment().add(1, 'days'),
-	         allDay: true,
-	       },
-	       {
-	         id: 3,
-	         title: 'event3',
-	         start: moment().add(2, 'days'),
-	         end: moment().add(2, 'days').add(6, 'hours'),
-	         allDay: false,
-	       },
 
 	       {
-	         title: 'All Day Event',
-	         start: '2017-10-01'
+	         title: "All Day Event",
+	         start: "2017-10-01"
 	       },
 	       {
 				    	   title:"My repeating event",
-	          start:     '2017-07-12T10:00',
-	          end:     '2017-08-15T10:45',
-	          color: 'pink',textColor: 'black',
-				    	   dow: [1,6] // Repeat monday and thursday
+	          start:     "2017-07-12T10:00",
+	          end:     "2017-08-15T10:45",
+	          color: "pink",textColor: "black",
+				    	   dow: [1,6]
 						},
 
 	       {
-	           title:     'Τμήμα T5 - Ηλεκτρονική - Ρεύματοπουλος',
-	           start:     '2017-10-15T17:00:00',
-	           end:     '2017-10-15T17:45:00',
-	           color: 'cyan',textColor: 'black',
-	           description: 'Αιθουσα 4'
+	           title:     "Τμήμα T5 - Ηλεκτρονική - Ρεύματοπουλος",
+	           start:     "2017-10-15T17:00:00",
+	           end:     "2017-10-15T17:45:00",
+	           color: "cyan",textColor: "black",
+	           description: "Αιθουσα 4"
 	       },
 	       {
-	           title:     'Τμήμα T5 - Μαθηματικά - Μπουλίδης',
-	           start:     '2017-10-15T18:00:00',
-	           end:     '2017-10-15T18:45:00',
-	           color: 'cyan',textColor: 'black',
-	           description: 'Αιθουσα 4'
+	           title:     "Τμήμα T5 - Μαθηματικά - Μπουλίδης",
+	           start:     "2017-10-15T18:00:00",
+	           end:     "2017-10-15T18:45:00",
+	           color: "cyan",textColor: "black",
+	           description: "Αιθουσα 4"
 	       },
 	       {
-	           title:     'Τμήμα T5 - Έκθεση - Δεθίδου',
-	           start:     '2017-10-15T19:00:00',
-	           end:     '2017-10-15T19:45:00',
-	           color: 'cyan',textColor: 'black',
-	           description: 'Αιθουσα 4'
+	           title:     "Τμήμα T5 - Έκθεση - Δεθίδου",
+	           start:     "2017-10-15T19:00:00",
+	           end:     "2017-10-15T19:45:00",
+	           color: "cyan",textColor: "black",
+	           description: "Αιθουσα 4"
 	        },
 
 	       {
-	           title: 'Τμήμα Α2-Παπαδόπουλος',
-	           start: '2017-10-12T19:00:00',
-	           end: '2017-10-12T19:45:00',
-	           description: 'Αίθουσα 1'
+	           title: "Τμήμα Α2-Παπαδόπουλος",
+	           start: "2017-10-12T19:00:00",
+	           end: "2017-10-12T19:45:00",
+	           description: "Αίθουσα 1"
 	       },
 	       {
 	           id: 999,
-	           title: 'Τμήμα Β2-Σταυρίδης',
-	           start: '2017-10-13T17:00:00',
-	           description: 'This is a cool event'
+	           title: "Τμήμα Β2-Σταυρίδης",
+	           start: "2017-10-13T17:00:00",
+	           description: "This is a cool event"
 	       },
 	       {
 	           id: 999,
-	           title: 'Τμήμα Β2-Σταυρίδης Αναπλήρωση',
-	           start: '2017-10-16T13:00:00',
-	           description: 'This is a cool event'
+	           title: "Τμήμα Β2-Σταυρίδης Αναπλήρωση",
+	           start: "2017-10-16T13:00:00",
+	           description: "This is a cool event"
 	       },
 	       {
-	           title:     'Τμήμα Θ2 - Μαθηματικά - Μπουλίδης',
-	           start:     '2017-10-15T16:00:00',
-	           end:     '2017-10-15T16:45:00',
-	           color: 'orange',textColor: 'black',
-	           description: 'Αιθουσα 2'
+	           title:     "Τμήμα Θ2 - Μαθηματικά - Μπουλίδης",
+	           start:     "2017-10-15T16:00:00",
+	           end:     "2017-10-15T16:45:00",
+	           color: "orange",textColor: "black",
+	           description: "Αιθουσα 2"
 	       },
 	       {
-	           title:     'Τμήμα Θ2 - ΦΥΣΙΚΗ - Αλβερτίδης',
-	           start:     '2017-10-15T17:00:00',
-	           end:     '2017-10-15T17:45:00',
-	           color: 'orange',textColor: 'black',
-	           description: 'Αιθουσα 2'
+	           title:     "Τμήμα Θ2 - ΦΥΣΙΚΗ - Αλβερτίδης",
+	           start:     "2017-10-15T17:00:00",
+	           end:     "2017-10-15T17:45:00",
+	           color: "orange",textColor: "black",
+	           description: "Αιθουσα 2"
 	       },
 	       {
-	           title:     'Τμήμα Θ2 - Χημέια - Πλάνκας',
-	           start:     '2017-10-15T18:00:00',
-	           end:     '2017-10-15T18:45:00',
-	           color: 'orange',textColor: 'black',
-	           description: 'Αιθουσα 2'
+	           title:     "Τμήμα Θ2 - Χημέια - Πλάνκας",
+	           start:     "2017-10-15T18:00:00",
+	           end:     "2017-10-15T18:45:00",
+	           color: "orange",textColor: "black",
+	           description: "Αιθουσα 2"
 	       },
 
 	       {
-	           title:     'Τμήμα Θ2 - Έκθεση - Χελεξάκη',
-	           start:     '2017-10-15T19:00:00',
-	           end:     '2017-10-15T19:45:00',
-	           color: 'orange',textColor: 'black',
-	           description: 'Αιθουσα 2'
+	           title:     "Τμήμα Θ2 - Έκθεση - Χελεξάκη",
+	           start:     "2017-10-15T19:00:00",
+	           end:     "2017-10-15T19:45:00",
+	           color: "orange",textColor: "black",
+	           description: "Αιθουσα 2"
 	 
 	       }
 	    ],
