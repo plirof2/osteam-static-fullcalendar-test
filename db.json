@@ -8,7 +8,7 @@
     { "id": 1, "body": "Σχόλιο 001", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  	    events: [
+  	    "events": [
 	       {
 	         id: 1,
 	         title: 'event1',
