@@ -66,21 +66,21 @@
 	           "title":     "Τμήμα Θ2 - Μαθηματικά - Μπουλίδης",
 	           "start":     "2017-10-15T16:00:00",
 	           "end":     "2017-10-15T16:45:00",
-	           "color": "orange",text"color": "black",
+	           "color": "orange","textcolor": "black",
 	           "description": "Αιθουσα 2"
 	       },
 	       {
 	           "title":     "Τμήμα Θ2 - ΦΥΣΙΚΗ - Αλβερτίδης",
 	           "start":     "2017-10-15T17:00:00",
 	           "end":     "2017-10-15T17:45:00",
-	           "color": "orange",text"color": "black",
+	           "color": "orange","textcolor": "black",
 	           "description": "Αιθουσα 2"
 	       },
 	       {
 	           "title":     "Τμήμα Θ2 - Χημέια - Πλάνκας",
 	           "start":     "2017-10-15T18:00:00",
 	           "end":     "2017-10-15T18:45:00",
-	           "color": "orange",text"color": "black",
+	           "color": "orange","textcolor": "black",
 	           "description": "Αιθουσα 2"
 	       },
 
