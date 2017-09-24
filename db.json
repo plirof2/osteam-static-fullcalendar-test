@@ -18,7 +18,7 @@
 				    	   "title":"My repeating event",
 	          "start":     "2017-07-12T10:00",
 	          "end":     "2017-08-15T10:45",
-	          "color": "pink",text"color": "black",
+	          "color": "pink","textcolor": "black",
 				    	   "dow": [1,6]
 						},
 
@@ -26,21 +26,21 @@
 	           "title":     "Τμήμα T5 - Ηλεκτρονική - Ρεύματοπουλος",
 	           "start":     "2017-10-15T17:00:00",
 	           "end":     "2017-10-15T17:45:00",
-	           "color": "cyan",text"color": "black",
+	           "color": "cyan","textcolor": "black",
 	           "description": "Αιθουσα 4"
 	       },
 	       {
 	           "title":     "Τμήμα T5 - Μαθηματικά - Μπουλίδης",
 	           "start":     "2017-10-15T18:00:00",
 	           "end":     "2017-10-15T18:45:00",
-	           "color": "cyan",text"color": "black",
+	           "color": "cyan","textcolor": "black",
 	           "description": "Αιθουσα 4"
 	       },
 	       {
 	           "title":     "Τμήμα T5 - Έκθεση - Δεθίδου",
 	           "start":     "2017-10-15T19:00:00",
 	           "end":     "2017-10-15T19:45:00",
-	           "color": "cyan",text"color": "black",
+	           "color": "cyan","textcolor": "black",
 	           "description": "Αιθουσα 4"
 	        },
 
@@ -88,7 +88,7 @@
 	           "title":     "Τμήμα Θ2 - Έκθεση - Χελεξάκη",
 	           "start":     "2017-10-15T19:00:00",
 	           "end":     "2017-10-15T19:45:00",
-	           "color": "orange",text"color": "black",
+	           "color": "orange","textcolor": "black",
 	           "description": "Αιθουσα 2"
 	 
 	       }
